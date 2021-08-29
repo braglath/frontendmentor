@@ -1,0 +1,56 @@
+html {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+#container {
+    height: 600px;
+    width: 400px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 25px;
+    text-align: center;
+    /* background-size: cover; */
+}
+
+
+/* .image {
+    background-color: aqua;
+} */
+
+img {
+    border-radius: 25px 25px 0 0;
+    width: 400px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0 50px;
+}
+
+#card {
+    background-color: hsl(225, 100%, 98%);
+    margin: 0 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.musicicon {
+    height: 50px;
+    width: 50px;
+    /* margin: 0 0; */
+}
+
+.heading {
+    margin-right: 70px;
+}
+
+.change {
+    margin-right: 20px;
+}
