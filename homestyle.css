@@ -1,0 +1,104 @@
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.maincontainer {
+    background-color: wheat;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; */
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.maincontainer>img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 400px;
+}
+
+.toptwolines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.maintitle {
+    font-weight: 100;
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 0px;
+}
+
+.tagline {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bodycard {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* flex-direction: row; */
+    background-color: hsl(225, 100%, 99%);
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+.bodycard>img {
+    height: 40px;
+    width: 40px;
+}
+
+.bodycard .plan {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25%;
+    margin-left: 12px;
+}
+
+.bodycard>a {
+    margin-left: 5px;
+    /* margin-left: 10%; */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.plan span:nth-child(1) {
+    font-weight: 600;
+    margin-bottom: 3px;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan span:nth-child(2) {
+    font-weight: 300;
+    color: hsl(224, 23%, 55%);
+}
+
+button {
+    /* width: 75%;
+    height: 20%; */
+    font-size: 16px;
+    padding: 10px 70px;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 0 0 black; */
+    color: white;
+    stroke: none;
+}

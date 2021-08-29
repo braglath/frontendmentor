@@ -5,51 +5,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
-    <title>Frontend Mentor | Order summary card</title>
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-        
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
-    </style>
+    <title>Frontend Mentor | Order summary card</title>
 </head>
 
 <body>
-    <div id="container">
-        <div class="image">
-            <img src="images/illustration-hero.svg" alt="image" />
-        </div>
-        <h1>Order Summary</h1>
-        <p class="description">
-            You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
-        </p>
-
-        <div id="card">
-            <img src="images/icon-music.svg" alt="musicicon" class="musicicon" />
-            <div class="heading">
-                Annual Plan <span class="span">$59.99/year</span>
+    <div class="main-card">
+        <img src="./images/illustration-hero.svg" alt="Person listening music" />
+        <div class="details">
+            <p>Order Summary</p>
+            <p class="tagline">
+                You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+            </p>
+            <div class="plan-body">
+                <img src="./images/icon-music.svg" alt="music icon" />
+                <div class="plan-details">
+                    <span>Annual Plan</span>
+                    <span>$59.99/year</span>
+                </div>
+                <a href="#">Change</a>
             </div>
-            <div class="pricetag"></div>
-            <div class="change"><a href="#">Change</a></div>
+            <button class="payment-button">Procees to Payment</button>
+            <p class="cancel-order">Cancel Order</p>
         </div>
-        <button>Proceed to Payment</button>
-        <div id="cancelorder"><a href="#">Cancel Order</a></div>
-    </div>
-
-    <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
-      >. Coded by <a href="#">Braglath S</a>.
     </div>
 </body>
 
